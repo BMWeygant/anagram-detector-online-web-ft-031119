@@ -1,14 +1,14 @@
 # Your code goes here!
 require 'pry'
 class Anagram
-attr_accessor :drow
+attr_accessor :word
 
 
 def initialize(word)
-@drow = word
+@word = word
 end
 
 def match(array)
-  array.select {|x| x.split("").sort == @drow.split("".sort)}
+  array.select {|x| x.split("").sort == @word.split("").sort}
 end
 end
