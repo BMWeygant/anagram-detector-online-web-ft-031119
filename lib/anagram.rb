@@ -5,7 +5,7 @@ attr_accessor :word
 
 
 def initialize(word)
-@word = word
+@name = word
 end
 
 def match(array)
