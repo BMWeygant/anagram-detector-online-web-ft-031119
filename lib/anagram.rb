@@ -1,11 +1,11 @@
 # Your code goes here!
 require 'pry'
 class Anagram
-attr_accessor :word
+attr_accessor :drow
 
 
 def initialize(word)
-@word = word
+@drow = word
 end
 
 def match(array)
