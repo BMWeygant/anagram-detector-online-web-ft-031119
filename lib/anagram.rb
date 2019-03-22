@@ -9,6 +9,6 @@ def initialize(word)
 end
 
 def match(array)
-  array.select {|x| binding.pry x.split("").sort}
+  array.select binding.pry {|x| x.split("").sort}
 end
 end
