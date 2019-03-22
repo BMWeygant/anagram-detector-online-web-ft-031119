@@ -7,6 +7,6 @@ def initialize(word)
 @word = word
 end
 
-def self.match
+def match
 end
 end
