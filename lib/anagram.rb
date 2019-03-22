@@ -1,4 +1,5 @@
 # Your code goes here!
+require 'pry'
 class Anagram
 attr_accessor :word
 
@@ -8,6 +9,6 @@ def initialize(word)
 end
 
 def match(array)
-  array.select {|x| x.split("").sort}
+  array.select {|x| binding.pry x.split("").sort}
 end
 end
